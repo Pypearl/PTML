@@ -18,9 +18,14 @@ We had to choose two **datasets** within the following constraints :
 Obvously, we had to tweak the datasets in order to artificially make it possible to apply **analysis** and **visualization** techniques on them.
 
 
-## Analysis
+## Supervised learning
 
-The analysis is made with python on the `MLSECU_SG_AL_VS.ipynb` notebook. We are going through the whole analysis process, with the **dataset exploration**, the **cleaning**, the **feature engineering**, **statistical analysis**, **visualization** and finally the **machine learning** part.
+In a first part, we had to work on a dataset and perform **supervised learning** on it. We decided to work on mobile price **classification**, and try to find some relation between features of a mobile phone (RAM, number of cores, internal memory...) and its selling price. 
+
+We found a dataset that instead of giving the actual price of each phone give a price range indicating how high the price is.
+
+We could perform different analysis ont this dataset and try to visualize our data.
+
 
 ## Results
 
