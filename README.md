@@ -1,10 +1,11 @@
 # PTML [![Profile][title-img]][profile]
 
-Python for The Machine Learning project.
-
-
 [title-img]:https://img.shields.io/badge/-SCIA--PRIME-red
 [profile]:https://github.com/bictole
+
+## Objective
+
+The goal of this project is to apply and demonstrate the use of different machine learning methods to real datasets.
 
 This project is about **Machine Learning and Cybersecurity**, we perform here the analysis of a large attacked netflow and the training of several machine learning algorithm, supervised and unsupervised, to compare them.
 
