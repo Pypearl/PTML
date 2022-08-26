@@ -5,18 +5,18 @@
 
 ## Objective
 
-The goal of this project is to apply and demonstrate the use of different machine learning methods to real datasets.
-
-This project is about **Machine Learning and Cybersecurity**, we perform here the analysis of a large attacked netflow and the training of several machine learning algorithm, supervised and unsupervised, to compare them.
+The goal of this project is to apply and demonstrate the use of different **machine learning** methods to real datasets.
 
 ## Dataset
 
-The dataset is not in the repository. It is the [UGR'16 dataset](https://nesg.ugr.es/nesg-ugr16/index.php) : A New Dataset for the Evaluation of
-Cyclostationarity-Based Network IDSs.
+We had to choose two **datasets** within the following constraints :
+* several hundreds of lines
+* at least 6 attributes (columns), the first being a unique id, separated by commas
+* we may use some categorical (non quantitative) features.
+* some fields should be correlated
 
-The dataset is built with **real traffic** and **up-to-date attacks**. These data come from several netflow v9 collectors strategically located in the network of a spanish ISP. It is composed of two differentiated sets of data that are previously split in weeks.
+Obvously, we had to tweak the datasets in order to artificially make it possible to apply **analysis** and **visualization** techniques on them.
 
-A precise analysis of the dataset is available on [this](https://nesg.ugr.es/nesg-ugr16/dataset_AuthorVersionFinal.pdf) paper.
 
 ## Analysis
 
