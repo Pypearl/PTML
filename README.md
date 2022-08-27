@@ -28,13 +28,13 @@ We could perform different analysis ont this dataset and try to visualize our da
 
 <img src="https://github.com/Pypearl/PTML/blob/main/readme_images/supervised_vis.png" alt="Supervised_Visualization">
 
+We decided to test several algorithms with the **sklearn** and **xgboost** library.
+First, we split our data to obtain a train dataset and a test dataset, then we iterate on the **classifier** to fit them and test them. The scoring is here a `R2 score`, which is evaluated by **cross validation**.
 
-## Results
+The results are the following :
 
-To compare our **supervised** classification model algorithms, we compared their f1_score to see which fit the data. We observed that the tree-based models, in particular the **RandomForest**, are those that obtains the best results.
+<img src="https://github.com/Pypearl/PTML/blob/main/readme_images/supervised_res.png" alt="Supervised_Visualization">
 
-
-We also tested **XGBoost**, its results are excellent, with more than 94% of F1_score obtained for a test dataset with 1000 anomalies out of 10 000 network exchanges.
 
 ## Authors
 
