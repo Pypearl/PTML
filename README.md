@@ -35,6 +35,10 @@ The results are the following :
 
 <img src="https://github.com/Pypearl/PTML/blob/main/readme_images/supervised_res.png" alt="Supervised_Visualization">
 
+## Unsupervised learning
+
+
+
 
 ## Authors
 
