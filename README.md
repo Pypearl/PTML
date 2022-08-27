@@ -37,7 +37,15 @@ The results are the following :
 
 ## Unsupervised learning
 
+In this section, we decided to work on a dataset containing information about 167 **countries**, like the inflation, the net income by person and other **economical parameters**.
 
+After loading the data we checked that there were no missing and duplicated data. And we decided to visualize it with **seaborn** library.
+
+Our objectives in this unsupervised learning is to decide whether or not a country should receive a **Funding** for Development Aid.
+
+For this **machine learning** part, we decided to use the **K-Means** algorithm from the **sklearn** library. The objective was to apply a **clustering** technique on our data to classify them and to know which one of them should receive a Funding for Development Aid.
+
+We applied the algorithm on two datasets, the first one which was the result of a **PCA**, and the second one which was the result of a **MinMax Scaling**. The most optimized number of cluster is 3, we used the elbow method and the silouhette method from the sklearn library to find it.
 
 
 ## Authors
