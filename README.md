@@ -26,12 +26,13 @@ We found a dataset that instead of giving the actual price of each phone give a 
 
 We could perform different analysis ont this dataset and try to visualize our data.
 
+<img src="https://github.com/Pypearl/PTML/blob/main/readme_images/supervised_vis.png" alt="Supervised_Visualization">
+
 
 ## Results
 
 To compare our **supervised** classification model algorithms, we compared their f1_score to see which fit the data. We observed that the tree-based models, in particular the **RandomForest**, are those that obtains the best results.
 
-<img src="https://github.com/Bictole/MLSECU/blob/master/bench.png" alt="Benchmarks_Results">
 
 We also tested **XGBoost**, its results are excellent, with more than 94% of F1_score obtained for a test dataset with 1000 anomalies out of 10 000 network exchanges.
 
