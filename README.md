@@ -48,6 +48,9 @@ For this **machine learning** part, we decided to use the **K-Means** algorithm 
 We applied the algorithm on two datasets, the first one which was the result of a **PCA**, and the second one which was the result of a **MinMax Scaling**. The most optimized number of cluster is 3, we used the elbow method and the silouhette method from the sklearn library to find it.
 
 
+<img src="https://github.com/Pypearl/PTML/blob/main/readme_images/unsupervised_map.png" alt="Supervised_Visualization">
+
+
 ## Authors
 
 alexandre.lemonnier\
